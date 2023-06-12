@@ -1,5 +1,4 @@
 import Navbar from '@/components/navbar';
-
 import RutaA1 from '@/components/ruta19';
 
 
