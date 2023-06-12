@@ -1,6 +1,9 @@
 
 import Navbar from '@/components/navbar';
 import  Ruta20  from '@/components/ruta20';
+import  Concepcion  from '@/components/concepcion';
+import  Santafe  from '@/components/santafe';
+import  Servibus  from '@/components/servibus';
 
 export default function Ruta1() {
     return (
@@ -8,7 +11,7 @@ export default function Ruta1() {
             <Navbar />
             <div className="m-0 grid h-[100%] grid-cols-1 bg-[white] p-0 sm:grid-cols-4 ">
 
-                <Ruta20 />
+                <Servibus />
             </div>
         </div>
     );
