@@ -89,7 +89,7 @@ Esta es una aplicacion [Next.js](https://nextjs.org/) proyecto iniciado con [`cr
 
 ## Página
 
-[Link]()
+[link](https://hackfest-10.vercel.app/)
 
 <p align="right">(<a href="#top">Regreso al inicio</a>)</p>
 
