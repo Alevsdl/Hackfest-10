@@ -14,6 +14,7 @@ module.exports = {
       },
       colors: {
         maingreen: '#B3DC50',
+        amarillo: '#FFE14D',
       },
     },
   },
