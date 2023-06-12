@@ -8,7 +8,7 @@ export function Marcadores() {
 
   return (
     <Map
-      height={300}
+      height={900}
       defaultCenter={[14.844623950713178, -91.52317425152974]}
       defaultZoom={11}
     >
