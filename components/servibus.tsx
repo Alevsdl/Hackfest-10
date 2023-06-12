@@ -1,4 +1,4 @@
-import { Map, GeoJson, Marker  } from "pigeon-maps";
+import { Map, GeoJson, Marker } from "pigeon-maps";
 
 
 const geoJsonSample = {
@@ -825,7 +825,6 @@ export function Servibus() {
           };
         }}
       />
-       <Marker anchor={markerPosition} payload={1} />
     </Map>
   );
 }
