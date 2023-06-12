@@ -252,7 +252,7 @@ export function Ruta20() {
         data={geoJsonSample}
         styleCallback={(feature: any, hover: any) => {
           if (feature.geometry.type === 'LineString') {
-            return { strokeWidth: '1', stroke: 'black' };
+            return { strokeWidth: '3', stroke: 'blue' };
           }
           return {
             fill: '#d4e6ec99',
