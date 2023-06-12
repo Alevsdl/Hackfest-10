@@ -3,6 +3,7 @@ import bgg from '@/images/bg2.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import Navbar from '@/components/navbar';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -18,7 +19,8 @@ export default function Home() {
             </p>
             <div className="flex items-center justify-center ">
               <div className="cursor-pointer text-8xl text-[#F24C3D] transition duration-500 hover:scale-125 hover:text-maingreen ">
-                <FontAwesomeIcon icon={faLocationDot} />
+                <Link href="/rutas"><FontAwesomeIcon icon={faLocationDot} /></Link>
+
               </div>
             </div>
           </div>
