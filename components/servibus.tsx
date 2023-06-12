@@ -1,4 +1,5 @@
-import { Map, GeoJson } from 'pigeon-maps';
+import { Map, GeoJson, Marker  } from "pigeon-maps";
+
 
 const geoJsonSample = {
   type: 'FeatureCollection',
@@ -805,17 +806,16 @@ const geoJsonSample = {
 };
 
 export function Servibus() {
+  const markerPosition = [14.844623950713178, -91.52317425152974];
   return (
-    <Map
-      height={300}
-      defaultCenter={[14.844623950713178, -91.52317425152974]}
-      defaultZoom={14}
-    >
+
+    <Map height={500} defaultCenter={[14.844623950713178, -91.52317425152974]} defaultZoom={14}>
       <GeoJson
         data={geoJsonSample}
         styleCallback={(feature: any, hover: any) => {
-          if (feature.geometry.type === 'LineString') {
-            return { strokeWidth: '3', stroke: 'blue' };
+          if (feature.geometry.type === "LineString") {
+            return { strokeWidth: "3", stroke: "DarkGoldenrod" };
+
           }
           return {
             fill: '#d4e6ec99',
@@ -825,6 +825,7 @@ export function Servibus() {
           };
         }}
       />
+       <Marker anchor={markerPosition} payload={1} />
     </Map>
   );
 }
