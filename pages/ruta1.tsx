@@ -1,6 +1,9 @@
 
 import Navbar from '@/components/navbar';
+import Ruta18 from '@/components/ruta18';
 import  Ruta20  from '@/components/ruta20';
+import Trigales from '@/components/rutaTrigales';
+import VistaBella from '@/components/rutaVistaBella';
 
 export default function Ruta1() {
     return (
