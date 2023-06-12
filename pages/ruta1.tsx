@@ -1,5 +1,6 @@
 
 import Navbar from '@/components/navbar';
+import  Ruta20  from '@/components/ruta20';
 
 export default function Ruta1() {
     return (
@@ -7,7 +8,7 @@ export default function Ruta1() {
             <Navbar />
             <div className="m-0 grid h-[100%] grid-cols-1 bg-[white] p-0 sm:grid-cols-4 ">
 
-                aqui van las rutas
+                <Ruta20 />
             </div>
         </div>
     );
