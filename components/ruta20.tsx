@@ -244,7 +244,7 @@ const geoJsonSample = {
 export function Ruta20() {
   return (
     <Map
-      height={300}
+      height={500}
       defaultCenter={[14.844623950713178, -91.52317425152974]}
       defaultZoom={14}
     >
