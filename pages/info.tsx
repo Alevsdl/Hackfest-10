@@ -36,7 +36,7 @@ export default function Info() {
           <div className="grid  grid-cols-1 border-b border-[black] bg-[white] sm:grid-cols-2">
             <div className="group relative flex flex-1 items-center overflow-hidden bg-[white] p-10 text-justify font-medium text-black">
               <span className="absolute left-0 top-0 mb-0 flex h-0 w-full translate-y-0 transform bg-maingreen opacity-90 transition-all duration-1000 ease-out group-hover:h-full"></span>
-              <span className="relative text-sm sm:text-xl">
+              <span className="relative text-sm sm:text-lg">
                 Este sitio web tiene fines informativos y es de uso gratuito. La precisión
                 y disponibilidad de la información pueden variar, ya que dependemos de los
                 datos proporcionados por las respectivas autoridades de transporte
