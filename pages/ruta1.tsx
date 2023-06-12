@@ -1,5 +1,7 @@
 import Navbar from '@/components/navbar';
+
 import RutaA1 from '@/components/ruta19';
+
 
 export default function Ruta1() {
   return (
