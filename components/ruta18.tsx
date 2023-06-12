@@ -781,12 +781,12 @@ const geoJsonSample = {
 
 export function Ruta18() {
   return (
-    <Map height={300} defaultCenter={[14.844623950713178, -91.52317425152974]} defaultZoom={14}>
+    <Map height={500} defaultCenter={[14.844623950713178, -91.52317425152974]} defaultZoom={14}>
       <GeoJson
         data={geoJsonSample}
         styleCallback={(feature: any, hover: any) => {
           if (feature.geometry.type === "LineString") {
-            return { strokeWidth: "1", stroke: "black" };
+            return { strokeWidth: "3", stroke: "green" };
           }
           return {
             fill: "#d4e6ec99",
