@@ -45,5 +45,7 @@ export default function Layout() {
                         <Location parada="Estadio Mario Camposeco" />
                     </div>
                 </div>
-  );
+            </div>
+        </div>
+    );
 }
