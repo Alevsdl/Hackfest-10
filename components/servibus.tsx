@@ -825,7 +825,6 @@ export function Servibus() {
           };
         }}
       />
-       <Marker anchor={markerPosition} payload={1} />
     </Map>
   );
 }
