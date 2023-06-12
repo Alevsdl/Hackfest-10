@@ -302,7 +302,7 @@ const geoJsonSample = {
 export function Ruta19() {
   return (
     <Map
-      height={300}
+      height={500}
       defaultCenter={[14.844623950713178, -91.52317425152974]}
       defaultZoom={14}
     >
@@ -310,7 +310,7 @@ export function Ruta19() {
         data={geoJsonSample}
         styleCallback={(feature: any, hover: any) => {
           if (feature.geometry.type === 'LineString') {
-            return { strokeWidth: '1', stroke: 'black' };
+            return { strokeWidth: '3', stroke: '#A2172C' };
           }
           return {
             fill: '#d4e6ec99',
