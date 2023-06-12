@@ -52,7 +52,7 @@ export default function Info() {
           <div className="grid  h-[200px] grid-cols-1 border-b border-[black] bg-[yellow] text-center sm:grid-cols-5">
             <div className="group relative  flex items-center justify-center overflow-hidden border-black bg-[#FFE14D] p-10 text-left text-white sm:col-span-2 sm:border-r">
               <span className="absolute left-0 top-0 mb-0 flex h-full w-0 translate-x-0 transform bg-[#252279] opacity-90 transition-all duration-1000 ease-out group-hover:w-full "></span>
-              <p className="relative text-xl font-bold sm:text-5xl">Hackefest 10</p>
+              <p className="relative text-xl font-bold sm:text-5xl">Hackfest 10</p>
             </div>
 
             <div className="items-center bg-[white] pl-10 pt-10 text-left font-medium text-black sm:col-span-3 ">
