@@ -39,10 +39,10 @@ export default function Layout() {
               <p>PARADAS Y LUGARES</p>
             </div>
             <Location parada="Pacaja" />
-            <Location parada="Zoologico" />
+            <Location parada="Zoológico" />
             <Location parada="Terminal" />
             <Location parada="Parque Japon" />
-            <Location parada="Oftalmologico" />
+            <Location parada="Oftalmológico" />
             <Location parada="Estadio Mario Camposeco" />
             <Location parada="Benito Juarez" />
             <Location parada="Diagonal 15" />

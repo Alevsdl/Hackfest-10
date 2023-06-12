@@ -3,6 +3,7 @@ import Navbar from '@/components/navbar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRoute } from '@fortawesome/free-solid-svg-icons';
 import RutaA1 from '@/components/rutaA1';
+
 export default function Layout() {
   return (
     <div className="h-screen w-screen overflow-x-hidden bg-[white]">

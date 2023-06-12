@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRoute } from '@fortawesome/free-solid-svg-icons';
 import Ruta20 from '@/components/ruta20';
 
-export default function Layout() {
+export default function Ruta2Opage() {
     return (
         <div className="h-screen w-screen overflow-x-hidden bg-[white]">
             <Navbar />

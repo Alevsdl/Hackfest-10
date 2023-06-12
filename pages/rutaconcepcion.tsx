@@ -5,13 +5,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRoute } from '@fortawesome/free-solid-svg-icons';
 import Concepcion from '@/components/concepcion';
 
-export default function Layout() {
+export default function RutaCpage() {
     return (
         <div className="h-screen w-screen overflow-x-hidden bg-[white]">
             <Navbar />
             <div className="m-0 grid h-[100%] grid-cols-1 bg-[white] p-0 sm:grid-cols-5 ">
                 <div className="border-r border-black p-4 sm:col-span-3">
-                <div className="mb-2 flex h-[70px]  w-[100%] border-l-8 border-[#FF7F50] bg-[white] shadow-sm">
+                    <div className="mb-2 flex h-[70px]  w-[100%] border-l-8 border-[#FF7F50] bg-[white] shadow-sm">
                         <div className="border-r border-black pl-6 pr-6 pt-4 text-3xl text-gray-700">
                             <FontAwesomeIcon icon={faRoute} />
                         </div>

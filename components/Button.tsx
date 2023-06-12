@@ -22,7 +22,7 @@ const ButtonRoute: React.FC<ButtonProps> = ({
       case 'verde':
         return 'bg-maingreen';
       case 'naranja':
-        return 'bg-orange-600 ';
+        return 'bg-[#FF7F50]';
       case 'rosa':
         return 'bg-pink-600';
       case 'morado':
@@ -41,7 +41,7 @@ const ButtonRoute: React.FC<ButtonProps> = ({
       case 'verde':
         return 'border-maingreen hover:border-maingreen';
       case 'naranja':
-        return 'border-orange-600 hover:border-orange-600 ';
+        return 'border-[#FF7F50] hover:border-[#FF7F50] ';
       case 'rosa':
         return 'border-pink-600 hover:border-pink-600';
       case 'morado':
@@ -61,7 +61,7 @@ const ButtonRoute: React.FC<ButtonProps> = ({
         onClick={() => {
           window.location.href = link;
         }}
-        className={`relative inline-flex items-center overflow-hidden border-b-8 px-10 py-3 text-3xl font-medium text-gray-700 ${getColorClassBorder()} group bg-white hover:text-white`}
+        className={`relative inline-flex items-center overflow-hidden border-b-8 px-10 py-3 sm:text-3xl text-lg font-medium text-gray-700 ${getColorClassBorder()} group bg-white hover:text-white`}
         {...rest}
       >
         <span
@@ -73,7 +73,7 @@ const ButtonRoute: React.FC<ButtonProps> = ({
       </button>
       <a
         href={link}
-        className={`group relative inline-flex flex-1 items-center overflow-hidden px-12 py-3 text-xl font-semibold text-gray-700 hover:border-2 ${getColorClassBorder()}`}
+        className={`group relative inline-flex flex-1 items-center overflow-hidden px-12 py-3 sm:text-xl text-sm font-semibold text-gray-700 hover:border-2 ${getColorClassBorder()}`}
       >
         <span className="ease absolute right-0 flex h-10 w-10 translate-x-full transform items-center justify-start duration-300 group-hover:translate-x-0">
           <svg
