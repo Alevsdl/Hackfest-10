@@ -19,8 +19,9 @@ export default function Home() {
             </p>
             <div className="flex items-center justify-center ">
               <div className="cursor-pointer text-8xl text-[#F24C3D] transition duration-500 hover:scale-125 hover:text-maingreen ">
-                <Link href="/rutas"><FontAwesomeIcon icon={faLocationDot} /></Link>
-
+                <Link href="/rutas">
+                  <FontAwesomeIcon icon={faLocationDot} />
+                </Link>
               </div>
             </div>
           </div>

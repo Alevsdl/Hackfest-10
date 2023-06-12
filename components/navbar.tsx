@@ -3,6 +3,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 import pic from '@/images/bus.png';
 import pic2 from '@/images/bandera.png';
+import pmtq from '@/images/pmtq.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 const Navbar = () => {
     const [isMobile, setIsMobile] = useState(false);
     const [showMenu, setShowMenu] = useState(false);
@@ -25,18 +28,20 @@ const Navbar = () => {
     }, []);
 
     return (
-        <div className="sticky top-0 h-24 w-full bg-[white]">
+        <div className="sticky top-0 h-24 w-full bg-[white] z-50">
             {isMobile ? (
                 <div className="flex h-full w-full justify-center border-b border-t border-[black]">
                     <div
                         className="flex items-center justify-center pl-6 text-xl"
                         onClick={handleMenuClick}
-                    >
-                        {' '}
-                        menu
+                    ><FontAwesomeIcon icon={faBars} />
                     </div>
-                    {showMenu && <div className="bg-[pink]">soy un menu</div>}
-                    <div className="flex flex-1 items-center justify-center overflow-hidden text-xl font-bold ">
+                    {showMenu && <div className="bg-[white] fixed mt-24 w-[300px] h-[90px] rounded-b-lg grid ">
+                        <Link href="/">PRINCIPAL</Link>
+                        <Link href="/rutas">RUTAS</Link>
+                        <Link href="/info">INFO</Link>
+                    </div>}
+                    <div className="flex flex-1 items-center justify-center  text-lg font-bold">
                         <Image src={pic} alt="selfie" height={40} />
                         ROUTE
                         <Image src={pic2} alt="selfie" height={20} width={30} className="" />
@@ -51,7 +56,7 @@ const Navbar = () => {
                         <Image src={pic2} alt="selfie" height={20} width={30} className="" />
                         XELA
                     </div>
-                    <div className="col-span-2 flex justify-center border-b border-r border-[black] font-semibold bg-[white]">
+                    <div className="col-span-2 flex justify-center border-b border-r border-[black] bg-[white] font-semibold sticky top-0 ">
                         <div className="flex flex-1 items-center justify-center">
                             <p className="group relative">
                                 <Link href="/">PRINCIPAL</Link>
@@ -72,7 +77,10 @@ const Navbar = () => {
                         </div>
                     </div>
 
-                    <div className="border-b border-[black]">pmtq</div>
+                    <div className="border-b border-[black] flex items-center justify-center">
+                        <p className="pr-2">CON APOYO DE </p>
+                        <Image src={pmtq} alt="selfie" height={70} />
+                    </div>
                 </div>
             )}
         </div>
