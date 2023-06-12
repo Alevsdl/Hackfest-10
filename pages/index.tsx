@@ -26,7 +26,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="">3</div>
+        <div className=""></div>
       </div>
     </div>
   );
