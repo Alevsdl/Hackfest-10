@@ -34,8 +34,8 @@ const AllRoutes = () => {
                 link="/ruta18"
             ></ButtonRoute>
             <ButtonRoute
-                color="amarillo"
-                border="amarillo"
+                color="naranja"
+                border="naranja"
                 nombre="Ruta A1"
                 link="/rutaA1"
             ></ButtonRoute>
@@ -46,8 +46,8 @@ const AllRoutes = () => {
                 link="/rutasantafe"
             ></ButtonRoute>
             <ButtonRoute
-                color="amarillo"
-                border="amarillo"
+                color="morado"
+                border="morado"
                 nombre="Ruta Servibus"
                 link="/rutaservibus"
             ></ButtonRoute>

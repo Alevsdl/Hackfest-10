@@ -43,7 +43,7 @@ export default function Rutas() {
         </div>
         <div className="text-2xl font-semibold text-gray-600 text-center">
           <p className="text-2xl font-semibold text-gray-600 p-4">Lugares Turísticos</p>
-          <div className=" w-full h-full"><Marcadores /></div>
+          <div className=" w-full h-full pl-6 pr-6 sm:p-0"><Marcadores /></div>
         </div>
       </div>
     </div>
