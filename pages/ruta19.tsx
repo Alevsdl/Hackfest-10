@@ -35,7 +35,7 @@ export default function Layout() {
         </div>
         <div className="flex justify-center border-r border-black p-4 sm:col-span-2">
           <div className="w-[100%] rounded-xl">
-            <div className="flex h-[60px] w-full items-center justify-center bg-gray-200 text-center text-3xl">
+            <div className="flex h-[60px] w-full items-center justify-center bg-gray-200 text-center text-2xl sm:text-3xl">
               <p>PARADAS Y LUGARES</p>
             </div>
             <Location parada="Pacaja" />
